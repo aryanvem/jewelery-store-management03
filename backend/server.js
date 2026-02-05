@@ -1,5 +1,5 @@
 require("dotenv").config();
-require("./config/googleStrategy");
+
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
