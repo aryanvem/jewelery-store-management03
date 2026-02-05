@@ -1129,11 +1129,11 @@
             }
         }
 
-        // Social Login (Frontend Demo)
-        function socialLogin(provider) {
-            alert(`🔐 ${provider.charAt(0).toUpperCase() + provider.slice(1)} login would be integrated here.\n\nThis requires backend API integration with OAuth.`);
-            // In production: window.location.href = `/auth/${provider}`;
-        }
+        // Social Login
+function socialLogin(provider) {
+    // Redirect to backend OAuth endpoint
+    window.location.href = `https://jewelery-store-management03-38y6.vercel.app/auth/${provider}`;
+}
 
         // OTP Login (Frontend Demo)
         function sendOTP() {
